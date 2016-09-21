@@ -23,7 +23,7 @@
 // }
 
 // Get an element with the id of game-board and set it to a variable.
-var createBoard = document.getElementById('game-board');
+var board = document.getElementById('game-board');
 
 function createBoard() { //function to create board
 	for (var i=0; i<cards.length; i++) { //loop to create card elements
@@ -33,5 +33,4 @@ function createBoard() { //function to create board
 
 	}
 }
-
 
